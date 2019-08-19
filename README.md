@@ -1,16 +1,14 @@
 # flutter_app
 
-A new Flutter project.
+## 监听 build_runner 生成 g.dart 文件
 
-## Getting Started
+flutter packages pub run build_runner watch
 
-This project is a starting point for a Flutter application.
+### 启动模拟器
 
-A few resources to get you started if this is your first Flutter project:
+flutter emulators
+flutter emulators --launch <emulator id>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 启动
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run
